@@ -16,6 +16,8 @@ async def on_message(message: discord.Message):
         await message.channel.send(random.choice(["a patrao eu nao consigo fazer captcha, q nao consegue rapaz segue o orea seca o estilo e esse."]))
     if "desenrolado" in message.content:
         await message.channel.send("tem que ser assim rapaz")
+    if "a patrao eu nao consigo" in message.content:
+        await message.channel.send("que nao consegue rapaz segue o orea seca aqui o estilo è esse mermao")
 
 
 @bot.tree.command("desenrolado")
