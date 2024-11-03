@@ -6,4 +6,4 @@ if message.author.id == 716390085896962058 and "Please tell us you're human!" in
         await message.author.kick(reason="captcha nas area")
         await message.channel.send("atividade para nao virar saudade"))
 ```
-[convidar](https://discord.com/oauth2/authorize?client_id=1299729270498656296 "convidar")****
+#[convidar](https://discord.com/oauth2/authorize?client_id=1299729270498656296 "convidar")
