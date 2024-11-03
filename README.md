@@ -4,4 +4,5 @@
 ```
 if message.author.id == 716390085896962058 and "Please tell us you're human!" in message.content:
         await message.author.kick(reason="captcha nas area")
+        await message.channel.send("atividade para nao virar saudade"))
 ```
