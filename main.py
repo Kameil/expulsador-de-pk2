@@ -20,7 +20,7 @@ async def on_message(message: discord.Message):
         await message.channel.send("que nao consegue rapaz segue o orea seca aqui o estilo è esse mermao")
 
 
-@bot.tree.command("desenrolado")
+@bot.tree.command(name="desenrolado", description="Desenrolado")
 async def desenroladocmd(inter: discord.Interaction):
     await inter.response.send_message("Tem q ser assim rapaz")
 
